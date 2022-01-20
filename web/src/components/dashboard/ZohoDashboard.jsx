@@ -32,6 +32,19 @@ function ZohoDashboard() {
             justifyContent:'space-evenly',
         
         }}>
+                    <Link to='/dashboard' style={{textDecoration:'none', color:'red', }}>
+          <Card style={{ height: "100%", width: "10rem" }}>
+            <CardContent style={{display:'flex', flexDirection:'column',alignItems:'center', justifyContent:'center'}}>
+              <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+                <FlashAutoIcon />
+              </Avatar>
+              <h3>
+                <b>Analytics</b>
+              </h3>
+            </CardContent>
+          </Card>
+          </Link>
+          
           <Card style={{ height: "100%", width: "10rem" }}>
             <CardContent style={{display:'flex', flexDirection:'column',alignItems:'center', justifyContent:'center'}}>
               <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
@@ -53,18 +66,7 @@ function ZohoDashboard() {
             </CardContent>
           </Card>
 
-          <Link to='/dashboard' style={{textDecoration:'none', color:'red', }}>
-          <Card style={{ height: "100%", width: "10rem" }}>
-            <CardContent style={{display:'flex', flexDirection:'column',alignItems:'center', justifyContent:'center'}}>
-              <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-                <FlashAutoIcon />
-              </Avatar>
-              <h3>
-                <b>Analytics</b>
-              </h3>
-            </CardContent>
-          </Card>
-          </Link>
+  
           <Card style={{ height: "100%", width: "10rem" }}>
             <CardContent style={{display:'flex', flexDirection:'column',alignItems:'center', justifyContent:'center'}}>
               <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
