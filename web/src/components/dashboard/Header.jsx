@@ -24,7 +24,7 @@ export default function SearchAppBar() {
   const settings = ["Logout"];
   const onLogOut = () => {
     Cookies.remove("jwt_token");
-    history.replace("/login");
+    history.replace("/");
     history.go(0);
   };
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -61,7 +61,7 @@ export default function SearchAppBar() {
           >
             <Bounce>
             <Link
-              to="/"
+              to="/home"
               style={{
                 textDecoration: "none",
                 color: "#000",

@@ -18,8 +18,8 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route exact path="/" element={<ZohoDashboard/>} />
-          <Route exact path="/login" element={<UserLogin />} />
+          <Route exact path="/home" element={<ZohoDashboard/>} />
+          <Route exact path="/" element={<UserLogin />} />
           <Route exact path="/dashboard" element={<ZohoD />} />
         </Routes>
       </Router>

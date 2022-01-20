@@ -3,6 +3,7 @@ import React,{useState} from 'react';
 import SearchAppBar from '../dashboard/Header';
 import LoginPage from './LoginPage';
 import { Link } from 'react-router-dom';
+import { borderBottom } from '@mui/system';
 
 function UserLogin() {
 
@@ -44,10 +45,16 @@ function UserLogin() {
    {(user.username !='')? (<div>
        <h3> Welcome, <span>{user.username}</span></h3>
        <Button onClick={Logout}>Logout</Button>
-       <Link to='/'
+
+       <div style={{
+           textAlign:'center',
+           
+       }}>
+       <Link to='/home'
         style={{textDecoration:"none"}}>
-       <Button style={{color:'tomato'}}>Dashboard</Button>
+       <Button style={{color:'tomato',borderBottom:'2px solid red'}}>Dashboard</Button>
        </Link>
+       </div>
        </div>) :(
            <LoginPage Login={Login} error={err} />
        )
