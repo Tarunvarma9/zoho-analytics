@@ -44,17 +44,18 @@ function ZohoDashboard() {
             </CardContent>
           </Card>
           </Link>
-          
+          <Link to='/datagrid' style={{textDecoration:'none', color:'red', }}>
           <Card style={{ height: "100%", width: "10rem" }}>
             <CardContent style={{display:'flex', flexDirection:'column',alignItems:'center', justifyContent:'center'}}>
               <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
                 <EarbudsBatteryIcon />
               </Avatar>
               <h3>
-                <b>eSourcing</b>
+                <b>Grid Data</b>
               </h3>
             </CardContent>
           </Card>
+          </Link>
           <Card style={{ height: "100%", width: "10rem" }}>
             <CardContent style={{display:'flex', flexDirection:'column',alignItems:'center', justifyContent:'center'}}>
               <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">

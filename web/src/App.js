@@ -13,6 +13,7 @@ import ZohoD from "./components/dashboard/ZohoD";
 import ZohoDashboard from "./components/dashboard/ZohoDashboard";
 // import LoginPage from "./components/login/LoginPage";
 import UserLogin from "./components/login/UserLogin";
+import AllFeaturesGrid from "./components/datagrid/AllFeaturesGrid";
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/home" element={<ZohoDashboard/>} />
           <Route exact path="/" element={<UserLogin />} />
           <Route exact path="/dashboard" element={<ZohoD />} />
+          <Route exact path="/datagrid" element={<AllFeaturesGrid/>} />
         </Routes>
       </Router>
       {/* <CardFlippy/> */}
