@@ -21,6 +21,7 @@
     "@progress/kendo-react-inputs": "^5.0.1",
     "@progress/kendo-react-intl": "^5.0.1",
     "@progress/kendo-react-pdf": "^5.0.1",
+    "@progress/kendo-react-treeview": "^5.0.1",
     "@progress/kendo-theme-default": "^5.1.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
